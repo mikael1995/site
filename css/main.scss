@@ -1,0 +1,100 @@
+$bgh: 54.76vw;
+$thh: 7.06vw;
+$mlt: 3.82vw;
+
+$white: #ffffff;
+$red: #e42837;
+
+html{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.wrap{
+	width: 100%;
+}
+header{
+	width: 100vw;
+	height: $bgh;
+	max-height: 931px;
+	max-width: 100%;
+	background-image: url(../img/bg-header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	.top-header{
+		height: $thh;
+		line-height: $thh;
+
+		.brand-name{
+		font-size: 2rem;
+		color: $white;
+		font-weight: 900;
+		}
+		.top-menu{
+		float: right;
+
+		nav{
+			ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+
+				li{
+					display: inline-block;
+					margin-left: $mlt;
+					a{
+						color: $white;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+		}
+	}
+	.content-header{
+		h1{
+			font-size: 4.75rem;
+			color: $white;
+			font-weight: 900;
+		}
+		span{
+			display: block;
+			color: $white;
+			font-weight: 400;
+			font-size: 1.4rem;
+			strong{
+				font-weight: 900;
+			}
+		}
+		a.btn{
+			display: inline-block;
+			margin-top: 100px;
+			background-color: $white;
+			color: $red;
+			font-size: 1.125rem;
+			font-weight: 700;
+			border-radius: 30px;
+			box-shadow: 5px 8.66px 40px 0px rgba( 54, 54, 54, 0.25);
+    		text-shadow: 5px 8.66px 30px rgba( 223, 27, 61, 0.25 );
+
+		}
+		.iphone{
+			margin: 0 auto;
+			width: 28.18vw;
+			height: 48.29vw;
+			max-width: 479px;
+			max-height: 821px;
+			background-image: url(../img/iphone7.png);
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
+			color: #fff;
+		}
+		}
+	}
+	section{
+		.interface-img{
+			color: $red;
+		}
+	}
+

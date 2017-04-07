@@ -1,0 +1,84 @@
+html {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrap {
+  width: 100%;
+}
+
+header {
+  width: 100vw;
+  height: 54.76vw;
+  max-height: 931px;
+  max-width: 100%;
+  background-image: url(../img/bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .top-header {
+  height: 7.06vw;
+  line-height: 7.06vw;
+}
+header .top-header .brand-name {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 900;
+}
+header .top-header .top-menu {
+  float: right;
+}
+header .top-header .top-menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header .top-header .top-menu nav ul li {
+  display: inline-block;
+  margin-left: 3.82vw;
+}
+header .top-header .top-menu nav ul li a {
+  color: #ffffff;
+  font-weight: 400;
+}
+header .content-header h1 {
+  font-size: 4.75rem;
+  color: #ffffff;
+  font-weight: 900;
+}
+header .content-header span {
+  display: block;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+header .content-header span strong {
+  font-weight: 900;
+}
+header .content-header a.btn {
+  display: inline-block;
+  margin-top: 100px;
+  background-color: #ffffff;
+  color: #e42837;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 30px;
+  box-shadow: 5px 8.66px 40px 0px rgba(54, 54, 54, 0.25);
+  text-shadow: 5px 8.66px 30px rgba(223, 27, 61, 0.25);
+}
+header .content-header .iphone {
+  margin: 0 auto;
+  width: 28.18vw;
+  height: 48.29vw;
+  max-width: 479px;
+  max-height: 821px;
+  background-image: url(../img/iphone7.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+section .interface-img {
+  color: #e42837;
+}
